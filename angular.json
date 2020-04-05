@@ -98,6 +98,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ServicesApp"
+    }
+  },
+  "defaultProject": "ServicesApp",
+  "cli": {
+    "analytics": "329c6b6c-148e-41ea-a849-f4228e3ca564"
+  }
 }
