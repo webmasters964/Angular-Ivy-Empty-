@@ -74,3 +74,27 @@ ng g s shared/service/TokenInterceptor
 npm install express body-parser compression morgan bcrypt-nodejs jsonwebtoken cors mongoose --save
 
 ```
+
+
+## Angular v9
+
+```
+ng build --aot --prod
+
+Generating ES5 bundles for differential loading...
+ES5 bundle generation complete.
+
+chunk {0} runtime-es2015.8b6660012e1e6b1aaaf4.js (runtime) 2.24 kB [entry] [rendered]
+chunk {0} runtime-es5.8b6660012e1e6b1aaaf4.js (runtime) 2.23 kB [entry] [rendered]
+chunk {2} polyfills-es2015.f2c5ab749249a66bdf26.js (polyfills) 36.1 kB [initial] [rendered]
+chunk {5} 5-es2015.54df965daf250943f0e6.js () 1.4 kB  [rendered]
+chunk {5} 5-es5.54df965daf250943f0e6.js () 1.4 kB  [rendered]
+chunk {3} polyfills-es5.049f620af8c864cf4d88.js (polyfills-es5) 129 kB [initial] [rendered]
+chunk {1} main-es2015.997d47f51605ecbbffdd.js (main) 273 kB [initial] [rendered]
+chunk {1} main-es5.997d47f51605ecbbffdd.js (main) 333 kB [initial] [rendered]
+chunk {4} styles.280e991c5992f8630bc9.css (styles) 0 bytes [initial] [rendered]
+Date: 2020-06-27T07:43:46.653Z - Hash: 34f68999122bf83e4a8f - Time: 58984ms
+
+```
+
+npx ng update @angular/cli @angular/core --next
